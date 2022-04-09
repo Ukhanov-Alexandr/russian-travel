@@ -1,0 +1,30 @@
+.intro {
+  padding: 104px 442px 80px 148px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    padding-top: calc(((100vw - 1024px) * (12 / 256)) + 92px);
+    padding-right: calc(((100vw - 1024px) * (156 / 256)) + 286px);
+    padding-bottom: calc(((100vw - 1024px) * (-12 / 256)) + 92px);
+    padding-left: calc(((100vw - 1024px) * (100 / 256)) + 48px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    padding-top: calc(((100vw - 768px) * (4 / 256)) + 88px);
+    padding-right: calc(((100vw - 768px) * (262 / 256)) + 24px);
+    padding-bottom: calc(((100vw - 768px) * (4 / 256)) + 88px);
+    padding-left: calc(((100vw - 768px) * (24 / 256)) + 24px);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .intro {
+    padding-top: calc(((100vw - 320px) * (24 / 448)) + 64px);
+    padding-right: calc(((100vw - 320px) * (8 / 448)) + 16px);
+    padding-bottom: calc(((100vw - 320px) * (24 / 448)) + 64px);
+    padding-left: calc(((100vw - 320px) * (8 / 448)) + 16px);
+  }
+}
