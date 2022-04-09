@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__subtitle {
-    margin-bottom: 56px;
+    margin-bottom: 56px; 
   }
 }
 
@@ -23,6 +23,7 @@
   .lead__subtitle {
     margin-top: calc(((100vw - 320px) * (16 / 448)) + 16px);
     margin-bottom: calc(((100vw - 320px) * (16 / 448)) + 40px);
+    max-width: calc(((100vw - 320px) * (352 / 448)) + 288px);
   }
 }
 
