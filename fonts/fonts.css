@@ -21,14 +21,3 @@
   src: url("../fonts/Inter-Black.woff2") format("woff2"),
        url("../fonts/Inter-Black.woff") format("woff");
 }
-
-.fonts {
-  font-family: 'Inter', 'Arial', sans-serif;
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
